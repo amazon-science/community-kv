@@ -1,0 +1,4 @@
+include assets/method.png
+include third_party/flash_attention/community-kv.patch
+recursive-include community_kv *.cpp *.cu *.cuh
+recursive-include tests *.py
