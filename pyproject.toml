@@ -4,7 +4,7 @@ requires = [
     "wheel==0.47.0",
     "packaging==26.2",
     "ninja==1.13.0",
-    "torch==2.7.1",
+    "torch==2.13.0",
 ]
 build-backend = "setuptools.build_meta"
 
@@ -17,7 +17,7 @@ requires-python = ">=3.10"
 license = "CC-BY-NC-4.0"
 license-files = ["LICENSE", "THIRD-PARTY-NOTICES"]
 dependencies = [
-    "torch==2.7.1",
+    "torch==2.13.0",
     "transformers>=4.57",
     "triton>=3.2",
 ]
